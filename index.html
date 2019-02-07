@@ -9,18 +9,28 @@
   <title>Let's play a game</title>
 </head>
 
-<body>
+<body class="bg-img">
   <section id="buttons">
-    <buttons></buttons>
-    <buttons></buttons>
-    <buttons></buttons>
+    <button onclick="userText('Rock')">Rock</button>
+    <button onclick="userText('Paper')">Paper</button>
+    <button onclick="userText('Scissors')">Scissors</button>
+    <button onclick="userText('Reset')">Reset</button>
   </section>
-  <sections id="textstuff">
-    <h1>You chose ______ and comp chose _______. You ________</h1>
-  </sections>
+  <section id="result1">
+    <h1>Choose your weapon.</h1>
+  </section>
+  <section id="result2">
+    <!--Script for computer choice-->
+  </section>
+  <section id="result3">
+    <!--Script for result-->
+  </section>
   <section id="images">
-    <img class="img-sized" src="${userChoiceImg}" />
-    <img class="img-sized" src="${compChoiceImg}" />
+    <!-- <img class="img-sized" src="${userChoiceImg}" />
+    <img class="img-sized" src="${compChoiceImg}" /> -->
+  </section>
+  <section id="scores">
+
   </section>
   <script src="app/app.js"></script>
 </body>

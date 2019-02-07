@@ -1,3 +1,9 @@
 .img-sized{
   width: 50vw;
 }
+
+.bg-img{
+  background-image: url("/assets/BattleTable.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
